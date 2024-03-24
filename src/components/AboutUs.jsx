@@ -12,7 +12,7 @@ const AboutUs = () => {
         </h2>
         </div>
         <div data-aos="fade-right"
-        data-aos-duration="1000">
+        data-aos-duration="1000">   
         <ul className="infoList">
             <li className="infoList-items">
                 <img className="info-icons" src={thunder} alt="" />

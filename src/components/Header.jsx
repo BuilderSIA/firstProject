@@ -2,13 +2,12 @@
 import { useState } from "react";
 import { firstImage, menu } from "../data";
 import Toggle from "./Toggle";
-import { t } from "i18next";
 
 function Header({mode,setMode}) {
     const [sideBar,setSideBar] = useState(false);
     return (
         <div className="header">
-            <nav className="navbar" id="navbar">
+            <nav className="navbar">
                 <div className="navlogo">
                     <img src={firstImage} alt="" />
                     <div className="logotext">
@@ -23,22 +22,22 @@ function Header({mode,setMode}) {
                 <ul className={!sideBar?"resp-list":"resp-list-on"}>
                 <li>
                             <a href="">
-                                {t('Асосий')}
+                                Асосий
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                {t('Биз ҳақимизда')}
+                                Биз ҳақимизда
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                {t('Хизматлар')}
+                                Хизматлар
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                {t('FAQ')}
+                                FAQ
                             </a>
                         </li>
                 </ul>
@@ -46,24 +45,24 @@ function Header({mode,setMode}) {
                     <img src={menu} alt="" />
                 </div>
                     <ul className="navlist">
-                        <li>
+                    <li>
                             <a href="">
-                                {t('Асосий')}
+                                Асосий
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                {t('Биз ҳақимизда')}
+                                Биз ҳақимизда
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                {t('Хизматлар')}
+                                Хизматлар
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                {t('FAQ')}
+                                FAQ
                             </a>
                         </li>
                     </ul>
