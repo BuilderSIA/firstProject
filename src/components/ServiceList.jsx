@@ -3,12 +3,17 @@ import { burga, kana, scorpion, sichqon, tarakan } from "../data"
 const ServiceList = () => {
   return (
     <div>
+    <div data-aos="fade-right"
+        data-aos-duration="1500">
     <h2 className="serviceList-text">
         Хизмат тури
     </h2>
-    <hr />
+    </div>
+    <hr/>
     <div className="serviceList-cont">
         <ul className="serviceList">
+        <div data-aos="flip-left"
+        data-aos-duration="1500">
             <li className="serviceList-item">
                 <h2 className="servList-text">
                     КЛАПАЛАР
@@ -23,6 +28,9 @@ const ServiceList = () => {
                     <img src={kana} alt="" />
                 </div>
             </li>
+            </div>
+            <div data-aos="flip-up"
+        data-aos-duration="1500">
             <li className="serviceList-item">
                 <h2 className="servList-text">
                     ТАРАКАНЛАР
@@ -37,6 +45,9 @@ const ServiceList = () => {
                     <img src={tarakan} alt="" />
                 </div>
             </li>
+            </div>
+            <div data-aos="flip-right"
+        data-aos-duration="1500">
             <li className="serviceList-item">
                 <h2 className="servList-text">
                     ЧАЁН
@@ -51,6 +62,9 @@ const ServiceList = () => {
                     <img src={scorpion} alt="" />
                 </div>
             </li>
+            </div>
+            <div data-aos="flip-left"
+        data-aos-duration="1500">
             <li className="serviceList-item">
                 <h2 className="servList-text">
                     КЕМИРУВЧИЛАР
@@ -65,6 +79,9 @@ const ServiceList = () => {
                     <img src={sichqon} alt="" />
                 </div>
             </li>
+            </div>
+            <div data-aos="flip-down"
+        data-aos-duration="1500">
             <li className="serviceList-item">
                 <h2 className="servList-text">
                     БУРГАЛАР
@@ -79,6 +96,7 @@ const ServiceList = () => {
                     <img src={burga} alt="" />
                 </div>
             </li>
+        </div>
         </ul>
     </div>
     </div>

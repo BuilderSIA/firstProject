@@ -3,7 +3,9 @@ import { letsgo } from "../data"
 const TellUs = () => {
   return (
     <div className="tellus">
-        <div className="tell-cont">
+      <div data-aos="fade-right"
+        data-aos-duration="1000"
+        className="tell-cont">
             <h2>
             Малумотингизни қолдиринг
             </h2>
@@ -13,7 +15,8 @@ const TellUs = () => {
                 Юбориш
             </button>
         </div>
-        <img src={letsgo} alt="" />
+        <img src={letsgo} alt="" data-aos="fade-left"
+        data-aos-duration="1000"/>
     </div>
   )
 }

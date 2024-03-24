@@ -23,5 +23,6 @@ import guarant from '/guarant.svg'
 import letsgo from '/letsgo.jpg'
 import call from '/call.svg'
 import location from '/location.svg'
+import menu from '/menu.svg'
 
-export {mini,sun,moon,firstImage,thunder, medal, helping, secondImage, thirdImage,fourthImage,fifthImage,sixthImage,seventhImage , noVirus,noBugs,noRats,burga,kana,scorpion,sichqon,tarakan,guarant,letsgo,call,location};
+export {mini,sun,moon,firstImage,thunder, medal, helping, secondImage, thirdImage,fourthImage,fifthImage,sixthImage,seventhImage , noVirus,noBugs,noRats,burga,kana,scorpion,sichqon,tarakan,guarant,letsgo,call,location,menu};

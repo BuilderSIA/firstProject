@@ -5,9 +5,14 @@ import { helping, medal, thunder } from "../data"
 const AboutUs = () => {
   return (
     <div className="info">
+        <div data-aos="fade-right"
+            data-aos-duration="1500">
         <h2 className="serviceList-text">
             Биз ҳақимизда
         </h2>
+        </div>
+        <div data-aos="fade-right"
+        data-aos-duration="1000">
         <ul className="infoList">
             <li className="infoList-items">
                 <img className="info-icons" src={thunder} alt="" />
@@ -37,6 +42,7 @@ const AboutUs = () => {
                 </p>
             </li>
         </ul>
+        </div>
     </div>
   )
 }

@@ -3,9 +3,14 @@
 const FAQ = () => {
   return (
     <div className="FAQ">
+        <div data-aos="fade-right"
+        data-aos-duration="1000">
         <h2 className="Faq-text">
             FAQ
         </h2>
+        </div>
+        <div data-aos="fade-right"
+        data-aos-duration="1500">
         <div className="accordion" id="accordionExample">
             <div className="accordion-item">
                 <h2 className="accordion-header">
@@ -43,6 +48,7 @@ const FAQ = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
   )

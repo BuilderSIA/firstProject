@@ -10,9 +10,17 @@ import Guarant from './components/Guarant';
 import FAQ from './components/FAQ';
 import TellUs from './components/TellUs';
 import Footer from './components/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function App() {
   const [mode,setMode] = useLocalStorage("mode",false)
+  
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div data-theme={mode?"dark":"light"}>
     <Header mode={mode} setMode={setMode}/>

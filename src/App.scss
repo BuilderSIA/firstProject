@@ -43,6 +43,12 @@
             color: var(--primary-color);
         }
     }
+    .resp-list{
+        display: none;
+    }
+    .menu-toggle{
+        display: none;
+    }
     .navlist{
         width: 30%;
         display: flex;
@@ -167,11 +173,12 @@
     }
     .service-list{
         display: flex;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
         gap: 50px;
         .service-list-items{
-            width: 80%;
+            width: 90%;
             border-radius: 1em;
             border: 2px solid gray;
             display: flex;
@@ -208,12 +215,12 @@
 .serviceList{
     display: grid;
     grid-template-columns: auto auto auto;
+    gap: 50px;
     list-style: none;
     padding-left: 170px;
     .serviceList-item{
         width: 350px;
-        height: 400px;
-        margin-top: 3.5em;
+        height: 450px;
         padding: 1em;
         border-radius: 1em;
         box-shadow: var(--box-shadow);
@@ -384,3 +391,6 @@
         }
     }
 }
+
+@import './resposive.scss'
+

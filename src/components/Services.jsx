@@ -5,14 +5,22 @@ import { noBugs, noRats, noVirus } from "../data"
 const Services = () => {
   return (
     <div className="services">
+    <div data-aos="fade-right"
+        data-aos-duration="1000">
         <h2 className="serviceList-text">
             Хизматлар
         </h2>
+    </div>
+    <div data-aos="fade-right"
+        data-aos-duration="1000">
         <p className="service-p">
             Биз сизга самарали ва кафолатли хизмат тақдим етамиз.
         </p>
+    </div>
         <hr />
         <ul className="service-list">
+    <div data-aos="fade-right"
+        data-aos-duration="1000">
             <li className="service-list-items">
                 <div className="serv-item-left">
                     <img src={noVirus} alt="" />
@@ -26,6 +34,9 @@ const Services = () => {
                     </p>
                 </div>
             </li>
+    </div>
+    <div data-aos="fade-right"
+        data-aos-duration="1000">
             <li className="service-list-items">
                 <div className="serv-item-left">
                     <img src={noBugs} alt="" />
@@ -39,6 +50,9 @@ const Services = () => {
                     </p>
                 </div>
             </li>
+    </div>
+    <div data-aos="fade-right"
+        data-aos-duration="1000">
             <li className="service-list-items">
                 <div className="serv-item-left">
                     <img src={noRats} alt="" />
@@ -52,6 +66,7 @@ const Services = () => {
                     </p>
                 </div>
             </li>
+    </div>
         </ul>
     </div>
   )
