@@ -5,6 +5,7 @@
     color: var(--primary-text-color);
     background-color: var(--background-color);
 }
+
 .contactBtn{
     width: 150px;
     height: 40px;
@@ -16,13 +17,14 @@
     font-size: larger;
     font-weight: 600;
 }
+
 .navbar{
-    width: 100%;
+    width: 1450px;
     height: 120px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
     z-index: 5;
     overflow-x: hidden;
     .navlogo{
@@ -69,7 +71,8 @@
     }
 }
 .hero{
-    width: 100%;
+    width: 1450px;
+    margin: 0 auto;
     padding-left: 70px;
     padding-top: 150px;
     display: flex;
@@ -100,6 +103,8 @@
     }
 }
 .info{
+    width: 1450px;
+    margin: 0 auto;
     padding-left: 70px;
     padding-bottom: 70px;
     overflow-x: hidden;
@@ -139,10 +144,10 @@
     }
 }
 .contact{
-    margin: 0 auto;
-    border: 1px solid;
-    width: 1200px;
+    width: 1450px;
     height: 600px;
+    margin: 50px auto;
+    border: 1px solid;
     padding-top: 120px;
     background: url(/third.jpg) 0px -100px no-repeat;
     background-size: cover;
@@ -167,7 +172,8 @@
     }
 }
 .services{
-    margin-top: 100px;
+    width: 1450px;
+    margin: 100px auto;
     overflow-x: hidden;
     .service-p{
         margin-left: 65px;
@@ -183,14 +189,15 @@
         flex-direction: column;
         gap: 50px;
         .service-list-items{
-            width: 90%;
+            width: 100%;
             border-radius: 1em;
             border: 2px solid gray;
             display: flex;
             justify-content: space-around;
             align-items: center;
             img{
-                width: 250px;
+                margin: 10px;
+                width: 230px;
                 border-radius: 1em;
                 background-color: #FFF;
             }
@@ -218,12 +225,14 @@
     font-size: 55px;
 }
 .serviceList{
+    width: 1450px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 50px;
     list-style: none;
-    padding-left: 170px;
-    overflow-x: hidden;
+    overflow: hidden;
+
     .serviceList-item{
         width: 350px;
         height: 450px;
@@ -244,7 +253,7 @@
     }
 }
 .guarant{
-    width: 95%;
+    width: 1450px;
     height: 550px;
     display: flex;
     justify-content:space-between;
@@ -338,7 +347,7 @@
             height: 45px;
             border-radius: 1em;
             background: var(--primary-color);
-            color: var(--primary-text-color);
+            color: var(--background-color);
             border: none;
             font-size: larger;
             font-weight: 600;
@@ -401,6 +410,8 @@
         }
     }
 }
+
+
 
 @import './resposive.scss'
 

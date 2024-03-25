@@ -22,7 +22,7 @@ function App() {
   }, [])
 
   return (
-    <div data-theme={mode?"dark":"light"}>
+    <div className='main-container' data-theme={mode?"dark":"light"}>
     <Header mode={mode} setMode={setMode}/>
     <Hero/>
     <AboutUs/>
