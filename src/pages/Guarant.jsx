@@ -1,9 +1,11 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unescaped-entities */
 import { guarant, seventhImage } from "../data"
 
 
-const Guarant = () => {
+const Guarant = ({t}) => {
   return (
-    <div className="" >
+    <div className="g-container" >
       <div className="guarant">
         <img src={seventhImage} alt="" className="ACE" data-aos="fade-right"
         data-aos-duration="1000" />
@@ -11,10 +13,10 @@ const Guarant = () => {
         data-aos-duration="1000">
             <img src={guarant} alt=""/>
             <h2 className="guarant-text">
-                Расмий кафолат - 1 йил. Биз жизмоний ва юридик шахсларга хизмат курсатамиз. Хизматлар лицензияланган!!!
+                {t("garant")}
             </h2>
             <button className="contactBtn">
-                Богланиш
+                {t("Bog'lanish")}
             </button>
         </div>
       </div>

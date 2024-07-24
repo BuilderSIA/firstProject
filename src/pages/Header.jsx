@@ -1,14 +1,41 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
-import { sixthImage } from "../data"
+import { useEffect, useState } from "react";
+import { firstImage, rusflag, sixthImage, usaflag, uzbflag } from "../data"
 
 const Header = ({handleChange,t,crntLang}) => {
-    
+    const [shadow, setShadow] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setShadow(true);
+    } else {
+      setShadow(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <div className="header" id="home">
-        <nav className="navbar">
-            <img src="" alt="" className="navlogo" />
+        <nav className={shadow?"navbarshadow":"navbar"}>
+            <div className="nav-cont">
+            <a href="#home" className="navlogo">
+            <img src={firstImage} alt="" />
+            <div className="logotext">
+                <h2>
+                    Toshkent
+                </h2>
+                <h2>
+                        Dezinfeksiya
+                </h2>
+            </div>
+        </a>
             <ul className="navlist">
                 <li className="list-item">
                     <a href="#home">
@@ -37,17 +64,19 @@ const Header = ({handleChange,t,crntLang}) => {
                 </option>
                 <option value="ru">
                     Русский
+                    <img src={rusflag} alt="" />
                 </option>
                 <option value="en">
                     English
+                    <img src={usaflag} alt="" />
                 </option>
             </select>
             <div className="navBtnCont">
-                        
                         <button className="contactBtn">
                             {t("Bog'lanish")}
                         </button>
                     </div>
+            </div>
         </nav>
         <div className="hero">
         <div className="heroText">

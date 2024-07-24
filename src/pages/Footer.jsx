@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 import { call, firstImage, location } from "../data"
 
 
-const Footer = () => {
+const Footer = ({t}) => {
   return (
     <div className="footer">
         <a href="#home" className="navlogo">
@@ -18,7 +19,7 @@ const Footer = () => {
         <div className="address-cont">
             <img src={location} alt="" />
             <p>
-                Ўзбекистон, Тошкент шаҳри
+                {t("adres")}
             </p>
         </div>
         <div className="tele-cont">

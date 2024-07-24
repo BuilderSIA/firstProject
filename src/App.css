@@ -6,11 +6,11 @@
 }
 html{
   scroll-behavior: smooth;
+  scrollbar-width: thin;
 }
 body{
   position: relative;
-  background: rgb(246,173,77);
-  background: linear-gradient(0deg, rgba(246,173,77,0.8856792717086834) 0%, rgba(77,234,246,0.768032212885154) 80%, rgba(0,206,254,0.7512254901960784) 100%);
+  background-color: #FFF;
 }
 a{
   text-decoration: none;
@@ -24,30 +24,65 @@ a{
   font-size: larger;
   font-weight: 600;
   cursor: pointer;
-  background: #ffffff6b;
+  background: #3b8cfd;
+  color: #FFF;
 }
 .contactBtn:hover{
-  background: #ffffffca;
-
+  background: #006aff;
+}
+.contactBtn:active{
+  color: gray;
 }
 .header{
+  max-width: 1920px;
   height: 750px;
-  max-width: 1450px;
   margin: 0 auto;
-  /* border: 1px solid; */
-  background: none;
-  
+}
+.header .navlogo{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 10px;
+}
+.header .navlogo img{
+  width: 120px;
+}
+.header .navlogo h2{
+  margin-top: -15px;
+  margin-bottom: -10px;
+  font-size: 45px;
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#lang{
+  border: 0.5px solid rgb(193, 190, 190);
+}
+.navbarshadow{
+  width: 100%;
+  max-width: 1920px;
+  height: 75px;
+  position: fixed;
+  z-index: 5;
+  background: #FFF;
+  box-shadow: 1px 1px 10px gray;
 }
 .navbar{
-  height: 10%;
   width: 100%;
-  max-width: 1450px;
+  max-width: 1920px;
+  height: 75px;
   position: fixed;
-  border: 1px solid;
+  z-index: 5;
+  background: #FFF;
+  transition: 200ms;
+}
+.nav-cont{
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 5;
+  padding-right: 50px;
 }
 .navlist{
   width: 40%;
@@ -67,6 +102,7 @@ a{
 }
 .heroText{
   width: 50%;
+  margin-left: 50px;
 }
 .heroText-main{
   font-size: 55px;
@@ -96,11 +132,14 @@ a{
 
 
 .aboutus{
-  width: 1450px;
+  max-width: 1920px;
   padding-top: 250px;
   margin: 0 auto;
   overflow-x: hidden;
   
+}
+.aboutus h2{
+  margin-left: 50px;
 }
 .info-icons{
   width: 70px;
@@ -160,7 +199,8 @@ a{
 
 
 .contact{
-  width: 1450px;
+  max-width: 1920px;
+  width: 95%;
   height: 600px;
   margin: 50px auto;
   border: 1px solid;
@@ -181,11 +221,12 @@ a{
 .contact-head{
   font-size: 30px;
   color: #011e2b;
-  margin-bottom: 110px;
+  margin-top: 30px;
+  margin-bottom: 35px;
 }
 .contact-p{
   font-size: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 170px;
   color: #011e2b;
 }
 .contact-cont .contactBtn{
@@ -214,17 +255,17 @@ a{
 
 
 .services{
-  width: 1450px;
+  max-width: 1920px;
   margin: 0 auto;
-  padding-top: 170px;
+  padding: 170px 20px;
   overflow-x: hidden;
-  
+  margin-bottom: 150px;
 }
-.service-p{
-  margin-left: 65px;
+.service-p-text{
+  margin-left: 50px;
   font-size: 25px;
   color: #011e2b;
-  width: 30%;
+  width: 40%;
   font-weight: 500;
 }
 .service-list{
@@ -281,11 +322,13 @@ a{
 
 
 .serviceList{
-  width: 1450px;
+  max-width: 1920px;
   margin: 0 auto;
-  padding-top: 10px;
+  padding: 10px 30px;
   display: grid;
   grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  align-items: center;
   gap: 50px;
   list-style: none;
   overflow: hidden;
@@ -298,16 +341,17 @@ a{
   text-align: center;
   transition: 500ms;
   box-shadow: 3px 0px 3px gray;
-  
+  position: relative;
 }
 .serviceList-item:hover{
   box-shadow: 5px 5px 7px gray;
 }
 .servList-footer{
   display: flex;
-  margin-top: 20px;
   align-items: center;
   justify-content: space-between;
+  position: absolute;
+  bottom: 50px;
   
 }
 .servList-footer img{
@@ -319,12 +363,13 @@ a{
 
 
 .serviceList-textCont{
-  max-width: 1450px;
+  max-width: 1920px;
   margin: 70px auto;
   
 }
 .serviceList-text{
   font-size: 55px;
+  margin-left: 50px;
 }
 
 
@@ -347,15 +392,22 @@ a{
 
 
 .guarant{
-  width: 1450px;
-  height: 550px;
+  width: 95%;
+  height: 100%;
   display: flex;
   justify-content:space-between;
   align-items: center;
-  margin: 250px auto;
+  margin: 200px auto;
+  margin-bottom: 0;
   border-radius: 2em;
-  padding: 1em;
+  padding: 1em 5em;
   overflow-x: hidden;
+  box-shadow: 2px 2px 10px gray;
+}
+.g-container{
+  max-width: 1920px;
+  height: 550px;
+  margin: 0 auto;
 }
 .ACE{
   width: 500px;
@@ -404,16 +456,16 @@ a{
 
 
 .FAQ{
-  max-width: 1450px;
+  max-width: 1920px;
   margin: 250px auto;
-  padding: 0px;
-  padding-top: 100px;
+  padding: 150px 20px;
   overflow-x: hidden;
 }
 .Faq-text{
   font-size: 40px;
   font-weight: 700;
   color: #011e2b;
+  margin-left: 20px;
 }
 .accordion{
   background: none;
@@ -472,7 +524,7 @@ a{
 
 
 .tellus{
-  max-width: 1450px;
+  max-width: 1920px;
   width: 95%;
   height: 600px;
   margin: 0 auto;
@@ -481,10 +533,14 @@ a{
   justify-content: space-around;
   align-items: center;
   overflow-x: hidden;
-  
+  border-radius: 2em;
+  box-shadow: 2px 2px 10px gray;
+}
+.tellus img{
+  border-radius: 2em;
 }
 .tell-cont{
-  width: 35%;
+  width: 45%;
   height: 66%;
   text-align: center;
   border-radius: 2em;
@@ -494,13 +550,11 @@ a{
   align-items: center;
   
 }
-.tell-cont img{
-  border-radius: 2em;
-}
 .tell-cont h2{
   font-size: 40px;
   font-weight: 700;
   color: #011e2b;
+  margin-bottom: 50px;
 }
 .tell-cont input{
   width: 80%;
@@ -508,20 +562,33 @@ a{
   border: 0.5px solid #011e2b;
   border-radius: 0.5em;
   margin-bottom: 10px;
+  padding: 10px;
 }
 .sendBtn{
   width: 50%;
   height: 45px;
   border-radius: 1em;
-  background: #ffffff6b;
-  color: #011e2b;
+  cursor: pointer;
+  background: #3b8cfd;
+  color: #FFF;
   border: none;
   font-size: larger;
   font-weight: 600;
 }
 .sendBtn:hover{
-  background: #ffffffca;
+  cursor: pointer;
+  background: #006aff;
+  color: #FFF;
 }
+.sendBtn:active{
+  color: gray;
+}
+
+
+
+
+
+
 
 
 
@@ -539,9 +606,8 @@ a{
 
 
 .footer{
-  max-width: 1450px;
-  margin: 50px auto 0 auto;
-  border-top: 1px solid;
+  max-width: 1920px;
+  margin: 50px auto;
   padding-top: 50px;
   display: flex;
   justify-content: start;
@@ -550,22 +616,22 @@ a{
   overflow-x: hidden;
   
 }
-.navlogo{
+.footer .navlogo{
   display: flex;
   justify-content: start;
   align-items: center;
-  img{
-      width: 120px;
-  }
-  h2{
-      margin-top: -15px;
-      margin-bottom: -10px;
-      font-size: 45px;
-      font-family: "Racing Sans One", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      color: var(--primary-color);
-  }
+  margin-left: 10px;
+}
+.footer .navlogo img{
+  width: 120px;
+}
+.footer .navlogo h2{
+  margin-top: -15px;
+  margin-bottom: -10px;
+  font-size: 45px;
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .address-cont{
   display: flex;
@@ -595,10 +661,3 @@ a{
   margin-top: 15px;
   margin-left: 20px;
 }
-
-
-
-
-
-
-

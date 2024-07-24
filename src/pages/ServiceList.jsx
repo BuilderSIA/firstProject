@@ -1,13 +1,15 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/prop-types */
 import { burga, kana, scorpion, sichqon, tarakan } from "../data"
 
-const ServiceList = () => {
+const ServiceList = ({t}) => {
   return (
     <div>
       <div className="serviceList-textCont">
         <div data-aos="fade-right"
             data-aos-duration="1500">
             <h2 className="serviceList-text">
-                Хизмат тури
+                {t("xizmatturi")}
             </h2>
         </div>
     </div>
@@ -18,14 +20,14 @@ const ServiceList = () => {
         data-aos-duration="1500">
             <li className="serviceList-item">
                 <h2 className="servList-text">
-                    КЛАПАЛАР
+                    {t("klapalar")}
                 </h2>
                 <p className="servList-p">
-                    Улар тўшакда, юмшоқ мебелда, тўқимачиликда, ешик ромлари ва дераза ромлари остида яшайдилар. Улар одамлар ва иссиқ қонли ҳайвонларнинг қони билан озиқланади. Аллергия ва оғир психологик ноқулайликни қўзғатинг...
+                    {t("kalapahaqida")}
                 </p>
                 <div className="servList-footer">
                     <button className="contactBtn">
-                        Богланиш
+                        {t("Bog'lanish")}
                     </button>
                     <img src={kana} alt="" />
                 </div>
@@ -35,14 +37,14 @@ const ServiceList = () => {
         data-aos-duration="1500">
             <li className="serviceList-item">
                 <h2 className="servList-text">
-                    ТАРАКАНЛАР
+                    {t("tarakan")}
                 </h2>
                 <p className="servList-p">
-                    Улар патогенларни олиб юрадилар. Улар ёриқларда, таглик тагида, мебел орқасида, ҳаммом остида, шкафлар остида ва ҳоказоларда яшайдилар. Улар озиқ-овқат, маиший чиқиндилар, чарм буюмлар ва қоғоз билан озиқланадилар.
+                    {t("tarakanhaqida")}
                 </p>
                 <div className="servList-footer">
                     <button className="contactBtn">
-                        Богланиш
+                        {t("Bog'lanish")}
                     </button>
                     <img src={tarakan} alt="" />
                 </div>
@@ -52,14 +54,14 @@ const ServiceList = () => {
         data-aos-duration="1500">
             <li className="serviceList-item">
                 <h2 className="servList-text">
-                    ЧАЁН
+                    {t("chayon")}
                 </h2>
                 <p className="servList-p">
-                    Ҳашаротлар ва арахнидлар билан озиқланадиган иссиқликни яхши кўрадиган жонзотлар. Улар омборларда ва уйларда яшашлари мумкин, лекин кўпинча улар ёғоч биноларда топилади ...
+                    {t("chayonhaqida")}
                 </p>
                 <div className="servList-footer">
                     <button className="contactBtn">
-                        Богланиш
+                        {t("Bog'lanish")}
                     </button>
                     <img src={scorpion} alt="" />
                 </div>
@@ -69,14 +71,14 @@ const ServiceList = () => {
         data-aos-duration="1500">
             <li className="serviceList-item">
                 <h2 className="servList-text">
-                    КЕМИРУВЧИЛАР
+                    {t("kemiruvchi")}
                 </h2>
                 <p className="servList-p">
-                    Енг кенг тарқалган каламушлар ва сичқонлар. Улар патогенларни олиб юради, барча сиртларда ишлайди, девор ва шифтларда ўтиш жойларини яратади, структуранинг ишончлилигини пасайтиради. Улар озиқ-овқат ва маиший чиқиндилар билан озиқланади...
+                    {t("kemiruvchihaqida")}
                 </p>
                 <div className="servList-footer">
                     <button className="contactBtn">
-                        Богланиш
+                        {t("Bog'lanish")}
                     </button>
                     <img src={sichqon} alt="" />
                 </div>
@@ -86,14 +88,14 @@ const ServiceList = () => {
         data-aos-duration="1500">
             <li className="serviceList-item">
                 <h2 className="servList-text">
-                    БУРГАЛАР
+                    {t("burga")}
                 </h2>
                 <p className="servList-p">
-                    Улар уй ҳайвонлари танасига кириб, қўшнилардан кўчиб кетишади. Улар юмшоқ мебеллар, кўрпа-тўшаклар, гиламлар, юмшоқ ўйинчоқлар, таглик тагида ва дераза ва ешик ромларида яшайдилар. Улар одамлар ва ҳайвонларнинг қони билан озиқланади. Улар касалликларга олиб келади ...
+                    {t("burgahaqida")}
                 </p>
                 <div className="servList-footer">
                     <button className="contactBtn">
-                        Богланиш
+                        {t("Bog'lanish")}
                     </button>
                     <img src={burga} alt="" />
                 </div>

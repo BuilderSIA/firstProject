@@ -1,5 +1,6 @@
 import Aos from 'aos'
-import './App.css'
+import './App.css';
+import './responsive.css'
 import Header from './pages/Header';
 import 'animate.css';
 import Aboutus from './pages/Aboutus';
