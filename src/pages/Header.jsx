@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
+
+
 import { useEffect, useState } from "react";
 import { close, firstImage,menusvg,sixthImage } from "../data"
 
@@ -105,3 +107,10 @@ const Header = ({handleChange,t,crntLang}) => {
 }
 
 export default Header
+
+
+
+
+
+
+
