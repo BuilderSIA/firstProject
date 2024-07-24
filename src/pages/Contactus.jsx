@@ -16,7 +16,7 @@ const Contactus = ({t}) => {
                 </p>
             </div>
             <div data-aos="fade-up-left">
-            <button className="contactBtn">
+            <button className="contactBtn" >
                 {t("Bog'lanish")}
             </button>
             </div>

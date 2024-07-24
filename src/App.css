@@ -42,7 +42,6 @@ a{
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-top: 10px;
 }
 .header .navlogo img{
   width: 120px;
@@ -57,27 +56,44 @@ a{
 }
 #lang{
   border: 0.5px solid rgb(193, 190, 190);
+  margin-top: -12px;
+}
+nav{
+  justify-content: start !important ;
 }
 .navbarshadow{
   width: 100%;
   max-width: 1920px;
-  height: 75px;
+  height: 105px;
   position: fixed;
   z-index: 5;
   background: #FFF;
   box-shadow: 1px 1px 10px gray;
+  display: flex;
+  flex-direction: row;
 }
 .navbar{
   width: 100%;
   max-width: 1920px;
-  height: 75px;
+  height: 105px;
   position: fixed;
   z-index: 5;
   background: #FFF;
   transition: 200ms;
+  display: flex;
+  flex-direction: row;
+}
+.menubtn{
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+.menuimg{
+  width: 50px;
 }
 .nav-cont{
-  width: 100%;
+  width: 70%;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -89,6 +105,9 @@ a{
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.navBtnCont{
+  margin-top: -12px;
 }
 .aboutus{
   max-width: 1920px;
@@ -233,6 +252,14 @@ a{
   margin-left: 90%;
   background: #FFF;  
   font-family: "Playwrite BE VLG", cursive;
+  color: black;
+
+}
+.contact-cont .contactBtn:active{
+  margin-left: 90%;
+  background: #a1a1a1;  
+  font-family: "Playwrite BE VLG", cursive;
+  color: rgb(93, 92, 92);
 }
 
 
@@ -561,7 +588,7 @@ a{
   height: 40px;
   border: 0.5px solid #011e2b;
   border-radius: 0.5em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 10px;
 }
 .sendBtn{
@@ -574,6 +601,7 @@ a{
   border: none;
   font-size: larger;
   font-weight: 600;
+  margin-top: 30px;
 }
 .sendBtn:hover{
   cursor: pointer;

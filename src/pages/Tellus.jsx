@@ -12,7 +12,7 @@ const Tellus = ({t}) => {
             <h2>
               {t("malumotqoldiring")}
             </h2>
-            <input type="text" placeholder="Исмингиз" />
+            <input type="text" placeholder={t("ismingiz")} />
             <input type="text" placeholder="+998-90-123-45-67"/>
             <button className="sendBtn">
                 {t("yuborish")}
