@@ -5,24 +5,33 @@
     height: 750px;
     margin: 0 auto;
   }
+  .navbar{
+    flex-wrap: nowrap;
+  }
   .navbar-brand{
     display: flex;
     justify-content: start;
     align-items: center;
   }
   .navbar-brand img{
-    width: 90px;
+    width: 70px;
   }
   .navbar-brand h2{
-    margin-top: -15px;
+    margin-top: -10px;
     margin-bottom: -10px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Racing Sans One", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
 
-
+  .heroText{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .heroText-main{
+    font-size: 35px;
+  }
   
   .aboutus{
     max-width: 1920px;
