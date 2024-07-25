@@ -1,6 +1,10 @@
 import Aos from 'aos'
 import './App.css';
-import './responsive.css'
+import './res1440.css'
+import './res1024.css'
+import './res800.css'
+import './res600.css'
+import './res450.css'
 import Header from './pages/Header';
 import 'animate.css';
 import Aboutus from './pages/Aboutus';

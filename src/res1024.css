@@ -1,0 +1,176 @@
+@media screen and (max-width:1024px) {
+      .aboutus{
+        max-width: 1920px;
+        padding-top: 120px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        
+      }
+      .aboutus h2{
+        margin-left: 50px;
+      }
+      .info-icons{
+        width: 50px;
+        padding-bottom: 10px;
+        border-radius: 1em;
+      }
+      .info-head{
+        font-family: sans-serif;
+        font-size: 20px;
+        color: #011e2b;
+        margin-bottom: 10px;
+      }
+      .info-p{
+        font-size: 13px;
+        color: #011e2b;
+        width: 70%;
+        text-align: center;
+      }
+      .infoList-items{
+        width: 25%;
+        height: 300px;
+        /* border: 0.5px solid; */
+        border-radius: 1em;
+        box-shadow: 4px 2px 7px gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        transition: 500ms;
+      }
+      .infoList-items:hover{
+        box-shadow: 2px 4px 10px gray;
+      }
+      .infoList{
+        display: flex;
+        justify-content:space-around;
+        align-items: start;
+        margin-top: 50px;
+        list-style: none;
+      }
+
+
+      .contact{
+        max-width: 1920px;
+        width: 95%;
+        height: 600px;
+        margin: 50px auto;
+        border: 1px solid;
+        padding-top: 110px;
+        background: url(/thirds.jpg) -50px 0px no-repeat;
+        background-size: cover;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        overflow: hidden;
+      }
+      .contact-cont{
+        width: 40%;
+        margin-left: 40%;
+        font-family: "Playwrite BE VLG", cursive;
+        font-optical-sizing: auto;
+        
+      }
+      .contact-head{
+        font-size: 30px;
+        color: #011e2b;
+        margin-top: -50px;
+        margin-bottom: 50px;
+      }
+      .contact-p{
+        font-size: 20px;
+        margin-bottom: 120px;
+        color: #011e2b;
+      }
+      .contact-cont .contactBtn{
+        margin-left: 90%;
+        background: #FFF;  
+        font-family: "Playwrite BE VLG", cursive;
+        color: black;
+      
+      }
+      .contact-cont .contactBtn:active{
+        margin-left: 90%;
+        background: #a1a1a1;  
+        font-family: "Playwrite BE VLG", cursive;
+        color: rgb(93, 92, 92);
+      }
+      #secContact{
+        display: block;
+      }
+      #frstContact{
+        display: none;
+      }
+
+
+      .serviceList{
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 10px 30px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+        list-style: none;
+        overflow: hidden;
+      }
+
+      .footer{
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 50px 0;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 50px;
+        overflow-x: hidden;
+        
+      }
+      .footer .navlogo{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-left: 10px;
+      }
+      .footer .navlogo img{
+        width: 100px;
+      }
+      .footer .navlogo h2{
+        margin-top: -15px;
+        margin-bottom: -10px;
+        font-size: 45px;
+        font-family: "Racing Sans One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .address-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .address-cont img{
+        background-color: #FFF;
+        border-radius: 50%;
+      }
+      .address-cont p{
+        margin-top: 15px;
+        margin-left: 20px;
+      }
+      .tele-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .tele-cont img{
+        background-color: #FFF;
+        border-radius: 50%;
+      }
+      .tele-cont p{
+        margin-top: 15px;
+        margin-left: 20px;
+      }
+
+}
+

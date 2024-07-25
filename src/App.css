@@ -38,15 +38,15 @@ a{
   height: 750px;
   margin: 0 auto;
 }
-.header .navlogo{
+.navbar-brand{
   display: flex;
   justify-content: start;
   align-items: center;
 }
-.header .navlogo img{
+.navbar-brand img{
   width: 120px;
 }
-.header .navlogo h2{
+.navbar-brand h2{
   margin-top: -15px;
   margin-bottom: -10px;
   font-size: 45px;
@@ -56,32 +56,12 @@ a{
 }
 #lang{
   border: 0.5px solid rgb(193, 190, 190);
-  margin-top: -12px;
+  width: 100px;
+  height: 40px;
+  margin-right: 20px;
 }
 nav{
   justify-content: start !important ;
-}
-.navbarshadow{
-  width: 100%;
-  max-width: 1920px;
-  height: 105px;
-  position: fixed;
-  z-index: 5;
-  background: #FFF;
-  box-shadow: 1px 1px 10px gray;
-  display: flex;
-  flex-direction: row;
-}
-.navbar{
-  width: 100%;
-  max-width: 1920px;
-  height: 105px;
-  position: fixed;
-  z-index: 5;
-  background: #FFF;
-  transition: 200ms;
-  display: flex;
-  flex-direction: row;
 }
 .menubtn{
   background: none;
@@ -134,6 +114,7 @@ nav{
 }
 .heroImgMain{
   width: 100%;
+  max-width: 850px;
 }
 
 
@@ -152,7 +133,7 @@ nav{
 
 .aboutus{
   max-width: 1920px;
-  padding-top: 250px;
+  padding-top: 120px;
   margin: 0 auto;
   overflow-x: hidden;
   
@@ -261,6 +242,9 @@ nav{
   font-family: "Playwrite BE VLG", cursive;
   color: rgb(93, 92, 92);
 }
+#secContact{
+  display: none;
+}
 
 
 
@@ -284,7 +268,7 @@ nav{
 .services{
   max-width: 1920px;
   margin: 0 auto;
-  padding: 170px 20px;
+  padding: 120px 20px;
   overflow-x: hidden;
   margin-bottom: 150px;
 }
@@ -425,7 +409,6 @@ nav{
   justify-content:space-between;
   align-items: center;
   margin: 200px auto;
-  margin-bottom: 0;
   border-radius: 2em;
   padding: 1em 5em;
   overflow-x: hidden;
@@ -433,7 +416,7 @@ nav{
 }
 .g-container{
   max-width: 1920px;
-  height: 550px;
+  height: 750px;
   margin: 0 auto;
 }
 .ACE{
@@ -484,8 +467,8 @@ nav{
 
 .FAQ{
   max-width: 1920px;
-  margin: 250px auto;
-  padding: 150px 20px;
+  margin: 100px auto;
+  padding: 120px 20px;
   overflow-x: hidden;
 }
 .Faq-text{
@@ -553,8 +536,8 @@ nav{
 .tellus{
   max-width: 1920px;
   width: 95%;
-  height: 600px;
-  margin: 0 auto;
+  height: 650px;
+  margin: 0px auto;
   border-radius: 2em;
   display: flex;
   justify-content: space-around;
@@ -573,7 +556,7 @@ nav{
   border-radius: 2em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   
 }
@@ -581,15 +564,14 @@ nav{
   font-size: 40px;
   font-weight: 700;
   color: #011e2b;
-  margin-bottom: 50px;
 }
 .tell-cont input{
   width: 80%;
   height: 40px;
   border: 0.5px solid #011e2b;
-  border-radius: 0.5em;
-  margin-bottom: 20px;
-  padding: 10px;
+  border-radius: 10px;
+  padding: 30px;
+  margin-left: 50px;
 }
 .sendBtn{
   width: 50%;
@@ -613,6 +595,16 @@ nav{
 }
 
 
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  padding-left: 60px;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
 
 
 
@@ -635,8 +627,8 @@ nav{
 
 .footer{
   max-width: 1920px;
-  margin: 50px auto;
-  padding-top: 50px;
+  margin: 0 auto;
+  padding: 50px 0;
   display: flex;
   justify-content: start;
   align-items: center;

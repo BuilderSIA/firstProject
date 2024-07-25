@@ -15,11 +15,14 @@ const Contactus = ({t}) => {
                         {t("mijozlar")}
                 </p>
             </div>
-            <div data-aos="fade-up-left">
+            <div data-aos="fade-up-left" id="frstContact">
             <button className="contactBtn" >
                 {t("Bog'lanish")}
             </button>
             </div>
+            <button className="contactBtn" id="secContact" >
+                {t("Bog'lanish")}
+            </button>
         </div>
     </div>
     </div>

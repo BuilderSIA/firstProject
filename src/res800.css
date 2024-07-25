@@ -1,0 +1,452 @@
+@media screen and (max-width:800px) {
+  .header{
+    max-width: 1920px;
+    height: 750px;
+    margin: 0 auto;
+  }
+  .navbar-brand{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .navbar-brand img{
+    width: 120px;
+  }
+  .navbar-brand h2{
+    margin-top: -15px;
+    margin-bottom: -10px;
+    font-size: 45px;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #lang{
+    border: 0.5px solid rgb(193, 190, 190);
+    width: 100px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  nav{
+    justify-content: start !important ;
+  }
+  .menubtn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  .menuimg{
+    width: 50px;
+  }
+  .nav-cont{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+  }
+  .navlist{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navBtnCont{
+    margin-top: -12px;
+  }
+  
+  .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-top: 150px;
+  }
+  .heroText{
+    width: 50%;
+  }
+  .heroText-main{
+    font-size: 45px;
+    text-align: center;
+  }
+  .heroText-p{
+    text-align: center;
+    font-size: medium;
+  }
+  .heroImg{
+    width: 50%;
+  }
+  .heroImgMain{
+    width: 100%;
+    max-width: 850px;
+  }
+  
+  
+  
+  .aboutus{
+    max-width: 1920px;
+    height: 1300px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    
+  }
+  .aboutus h2{
+    margin-left: 50px;
+  }
+  .info-icons{
+    width: 70px;
+    padding-bottom: 10px;
+    border-radius: 1em;
+  }
+  .info-head{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #011e2b;
+    margin-bottom: 10px;
+  }
+  .info-p{
+    font-size: 15px;
+    color: #011e2b;
+    width: 70%;
+    text-align: center;
+  }
+  .infoList-items{
+    width: 60%;
+    height: 300px;
+    /* border: 0.5px solid; */
+    border-radius: 1em;
+    box-shadow: 4px 2px 7px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    transition: 500ms;
+  }
+  .infoList-items:hover{
+    box-shadow: 2px 4px 10px gray;
+  }
+  .infoList{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    list-style: none;
+  }
+
+
+  .contact{
+    max-width: 1920px;
+    width: 95%;
+    height: 600px;
+    margin: 50px auto;
+    border: 1px solid;
+    padding-top: 110px;
+    background: url(/thirds.jpg) -50px 0px no-repeat;
+    background-size: cover;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    overflow: hidden;
+  }
+  .contact-cont{
+    width: 40%;
+    margin-left: 50%;
+    font-family: "Playwrite BE VLG", cursive;
+    font-optical-sizing: auto;
+    
+  }
+  .contact-head{
+    font-size: 20px;
+    color: #011e2b;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+  .contact-p{
+    font-size: 15px;
+    margin-bottom: 120px;
+    color: #011e2b;
+  }
+  .contact-cont .contactBtn{
+    margin-left: 70%;
+    background: #FFF;  
+    font-family: "Playwrite BE VLG", cursive;
+    color: black;
+  
+  }
+  .contact-cont .contactBtn:active{
+    margin-left: 90%;
+    background: #a1a1a1;  
+    font-family: "Playwrite BE VLG", cursive;
+    color: rgb(93, 92, 92);
+  }
+
+  #secContact{
+    margin-left: 50%;
+  }
+
+
+
+
+
+  
+
+
+.services{
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 120px 20px;
+  overflow-x: hidden;
+  margin-bottom: 150px;
+}
+.service-p-text{
+  margin-left: 50px;
+  font-size: 20px;
+  color: #011e2b;
+  width: 40%;
+  font-weight: 500;
+}
+.service-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  
+}
+.service-list-items{
+  width: 95%;
+  border-radius: 1em;
+  border: 2px solid gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.service-list-items img{
+  margin: 10px;
+  width: 230px;
+  border-radius: 100%;
+  background-color: #FFF;
+}
+.serv-item-left{
+  border-radius: 1em;
+  margin-right: 50px;
+}
+.serv-item-right h2{
+  font-size: 35px;
+  color: #011e2b;
+}
+.serv-item-right p{
+  font-size: larger;
+  font-weight: lighter;
+  color: #011e2b;
+}
+
+
+  .serviceList-textCont{
+    max-width: 1920px;
+    margin: 70px auto;
+    
+  }
+  .serviceList-text{
+    font-size: 45px;
+    margin-left: 50px;
+  }
+
+
+
+      .serviceList{
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 10px 30px;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+        list-style: none;
+        overflow: hidden;
+      }
+
+
+      .guarant{
+        width: 95%;
+        height: 100%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: column;
+        margin: 200px auto;
+        border-radius: 2em;
+        padding: 5em 5em;
+        overflow-x: hidden;
+        box-shadow: 2px 2px 10px gray;
+      }
+      .g-container{
+        max-width: 1920px;
+        height: 650px;
+        margin: 0 auto;
+      }
+      .ACE{
+        width: 500px;
+        border-radius: 2em;
+        display: none;
+      }
+      .guarant-cont{
+        width: 100%;
+        background: none;
+      }
+      .guarant-cont img{
+        background: none;
+      }
+      .guarant-cont h2{
+        font-size: 40px;
+        margin-top: 50px;
+        background: none;
+        margin-bottom: 80px;
+      }
+      
+
+
+      .tellus{
+        max-width: 1920px;
+        width: 95%;
+        height: 850px;
+        margin: 0px auto;
+        border-radius: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        overflow-x: hidden;
+        border-radius: 2em;
+        box-shadow: 2px 2px 10px gray;
+      }
+      .tellus img{
+        border-radius: 2em;
+        width: 80%;
+      }
+      .tell-cont{
+        width: 100%;
+        height: 66%;
+        text-align: center;
+        border-radius: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+      }
+      .tell-cont h2{
+        font-size: 25px;
+        font-weight: 700;
+        color: #011e2b;
+      }
+      .tell-cont input{
+        width: 90%;
+        height: 30px;
+        border: 0.5px solid #011e2b;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .sendBtn{
+        width: 50%;
+        height: 45px;
+        border-radius: 1em;
+        cursor: pointer;
+        background: #3b8cfd;
+        color: #FFF;
+        border: none;
+        font-size: larger;
+        font-weight: 600;
+        margin-top: 30px;
+      }
+      .sendBtn:hover{
+        cursor: pointer;
+        background: #006aff;
+        color: #FFF;
+      }
+      .sendBtn:active{
+        color: gray;
+      }
+      
+      
+      .error-message {
+        color: red;
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+        padding-left: 60px;
+      }
+      
+      .input-group {
+        margin-bottom: 1rem;
+      }
+
+
+
+
+
+      .footer{
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 50px 0;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+        overflow-x: hidden;
+        
+      }
+      .footer .navlogo{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+      }
+      .footer .navlogo img{
+        width: 90px;
+      }
+      .footer .navlogo h2{
+        margin-top: -5px;
+        margin-bottom: 0px;
+        font-size: 25px;
+        font-family: "Racing Sans One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .address-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+      .address-cont img{
+        background-color: #FFF;
+        border-radius: 50%;
+      }
+      .address-cont p{
+        margin-top: 15px;
+        margin-left: 0px;
+      }
+      .tele-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+      .tele-cont img{
+        background-color: #FFF;
+        border-radius: 50%;
+      }
+      .tele-cont p{
+        margin-top: 15px;
+        margin-left: 20px;
+      }
+
+}
+
