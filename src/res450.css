@@ -180,7 +180,7 @@
 
 
       .guarant{
-        width: 100%;
+        width: 85%;
         height: 100%;
         display: flex;
         justify-content:space-between;
@@ -194,7 +194,7 @@
       }
       .g-container{
         max-width: 1920px;
-        height: 650px;
+        height: 450px;
         margin: 0 auto;
       }
       .ACE{
@@ -210,10 +210,13 @@
         background: none;
       }
       .guarant-cont h2{
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 30px;
         margin-bottom: 30px;
+        margin-left: -50px;
+        margin-right: -50px;
         background: none;
+        text-align: center;
       }
 
 

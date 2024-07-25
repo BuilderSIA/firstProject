@@ -28,7 +28,7 @@ const Contactus = ({t}) => {
             </button>
             </div>
             <button className="contactBtn" id="secContact" >
-            <a href="#tellus" style={{color:"white"}}>
+            <a href="#tellus">
                 {t("Bog'lanish")}
                 </a>
             </button>
