@@ -188,7 +188,7 @@
         flex-direction: column;
         margin: 200px auto;
         border-radius: 2em;
-        overflow-x: hidden;
+        overflow: hidden;
         box-shadow: 2px 2px 10px gray;
         margin-left: 20px;
       }
