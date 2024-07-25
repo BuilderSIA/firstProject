@@ -41,5 +41,8 @@
     "malumotqoldiring":"Ma'lumotingizni qoldiring",
     "yuborish":"Yuborish",
     "adres":"O'zbekiston, Toshkent shahri",
-    "ismingiz":"Ismingiz"
+    "ismingiz":"Ismingiz",
+    "ismerror":"Iltimos ismingizni kiriting!",
+    "raqamyoq":"Iltimos raqamingizni kiriting",
+    "raqamerror":"Iltimos raqamni +998912345678 ko'rinishida kiriting"
 }

@@ -27,7 +27,9 @@ const ServiceList = ({t}) => {
                 </p>
                 <div className="servList-footer">
                     <button className="contactBtn">
-                        {t("Bog'lanish")}
+                    <a href="#tellus" style={{color:"white"}}>
+                {t("Bog'lanish")}
+                </a>
                     </button>
                     <img src={kana} alt="" />
                 </div>
@@ -44,7 +46,9 @@ const ServiceList = ({t}) => {
                 </p>
                 <div className="servList-footer">
                     <button className="contactBtn">
-                        {t("Bog'lanish")}
+                    <a href="#tellus" style={{color:"white"}}>
+                {t("Bog'lanish")}
+                </a>
                     </button>
                     <img src={tarakan} alt="" />
                 </div>
@@ -61,7 +65,9 @@ const ServiceList = ({t}) => {
                 </p>
                 <div className="servList-footer">
                     <button className="contactBtn">
-                        {t("Bog'lanish")}
+                    <a href="#tellus" style={{color:"white"}}>
+                {t("Bog'lanish")}
+                </a>
                     </button>
                     <img src={scorpion} alt="" />
                 </div>
@@ -78,7 +84,9 @@ const ServiceList = ({t}) => {
                 </p>
                 <div className="servList-footer">
                     <button className="contactBtn">
-                        {t("Bog'lanish")}
+                    <a href="#tellus" style={{color:"white"}}>
+                {t("Bog'lanish")}
+                </a>
                     </button>
                     <img src={sichqon} alt="" />
                 </div>
@@ -95,7 +103,9 @@ const ServiceList = ({t}) => {
                 </p>
                 <div className="servList-footer">
                     <button className="contactBtn">
-                        {t("Bog'lanish")}
+                    <a href="#tellus" style={{color:"white"}}>
+                {t("Bog'lanish")}
+                </a>
                     </button>
                     <img src={burga} alt="" />
                 </div>

@@ -38,8 +38,11 @@
     "2chijavob":"Medicines are not dangerous for people, pets and plants. But after treatment, the room should be ventilated for 40 minutes.",
     "3chisavol":"Do I need some way to prepare my home for treatment?",
     "3chijavob":"Basically, you need to isolate dishes and personal hygiene products. Pets should also be isolated during treatment. No need to move furniture or appliances.",
-    "malumotqoldiring":"Leave your information",
+    "malumotqoldiring":"Send your information",
     "yuborish":"Send",
     "adres":"Tashkent city, Uzbekistan",
-    "ismingiz":"Your name"
+    "ismingiz":"Your name",
+    "ismerror":"Enter your name, please!",
+    "raqamyoq":"Enter your number, please!",
+    "raqamerror":"Please enter your number on format +998912345678"
 }

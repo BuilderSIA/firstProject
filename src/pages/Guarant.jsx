@@ -16,7 +16,9 @@ const Guarant = ({t}) => {
                 {t("garant")}
             </h2>
             <button className="contactBtn">
+            <a href="#tellus" style={{color:"white"}}>
                 {t("Bog'lanish")}
+                </a>
             </button>
         </div>
       </div>

@@ -1,6 +1,11 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 
+
 const Contactus = ({t}) => {
+
+
+
     return (
     <div data-aos="fade-right">
     <div className="contact">
@@ -17,11 +22,15 @@ const Contactus = ({t}) => {
             </div>
             <div data-aos="fade-up-left" id="frstContact">
             <button className="contactBtn" >
+            <a href="#tellus">
                 {t("Bog'lanish")}
+                </a>
             </button>
             </div>
             <button className="contactBtn" id="secContact" >
+            <a href="#tellus" style={{color:"white"}}>
                 {t("Bog'lanish")}
+                </a>
             </button>
         </div>
     </div>
