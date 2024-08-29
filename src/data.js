@@ -1,4 +1,4 @@
-import firstImage from '/first.svg.png';
+import firstImage from '/first.svg';
 import secondImage from '/second.jpg';
 import thirdImage from '/third.jpg';
 import fourthImage from '/fourth.jpg';

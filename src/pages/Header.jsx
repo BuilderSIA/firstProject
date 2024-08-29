@@ -35,8 +35,8 @@ const Header = ({ handleChange, t, crntLang }) => {
           <a className="navbar-brand" href="#home">
             <img src={firstImage} alt="" />
             <div className="logotext">
-              <h2>Toshkent</h2>
-              <h2>Dezinfeksiya</h2>
+              <h2>{t("logo1")}</h2>
+              <h2>{t("logo2")}</h2>
             </div>
           </a>
           <button
